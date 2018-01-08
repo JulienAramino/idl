@@ -12,15 +12,11 @@
           v-card-actions
             v-btn(flat="" color="orange") Share
             v-btn(flat="" color="orange") Explore
+
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
 export default {
-  components: {
-    Logo
-  }
 }
 </script>
 

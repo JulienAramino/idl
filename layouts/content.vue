@@ -1,4 +1,5 @@
 <template lang="pug">
+
   v-app
     Navigation
     Toolbar

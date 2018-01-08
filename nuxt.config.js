@@ -15,12 +15,14 @@ module.exports = {
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,700|Material+Icons' }
     ]
   },
+  modules: [ '@nuxtjs/axios', 'nuxtent'],
   plugins: ['~/plugins/vuetify.js'],
   css: [
     {
       src: path.join(__dirname, 'node_modules/vuetify/dist/vuetify.min.css'),
       lang: 'styl'
-    }
+    },
+    '@/assets/style/content.scss'
   ],
   /*
   ** Customize the progress bar color
