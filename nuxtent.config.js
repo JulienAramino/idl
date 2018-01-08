@@ -1,10 +1,14 @@
 module.exports = {
   content: [
-    ['pages', {
-      permalink: ':slug',
-      isPost: false,
+    [ 'pages', {
       page: '/content/_content',
-      generate: ['get', 'getAll']
+      permalink: '/:slug',
+      isPost: false
+    }],
+    [ 'test', {
+      page: '/content/_content',
+      permalink: '/:slug',
+      isPost: false
     }]
   ],
   api: {

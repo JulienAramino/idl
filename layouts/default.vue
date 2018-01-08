@@ -1,11 +1,12 @@
 <template lang="pug">
+
   v-app
     Navigation
     Toolbar
     v-content
+      p layout default
       router-view
         nuxt
-
     Footerbar
 
 </template>
@@ -23,10 +24,6 @@
       Navigation,
       Toolbar,
       Footerbar
-    },
-    data: () => ({
-    }),
-    methods: {
     }
   }
 </script>

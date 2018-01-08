@@ -4,9 +4,9 @@
     Navigation
     Toolbar
     v-content
+      p layout content
       router-view
         nuxt
-
     Footerbar
 
 </template>
@@ -24,10 +24,6 @@
       Navigation,
       Toolbar,
       Footerbar
-    },
-    data: () => ({
-    }),
-    methods: {
     }
   }
 </script>

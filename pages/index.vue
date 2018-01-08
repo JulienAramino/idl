@@ -1,5 +1,7 @@
 <template lang="pug">
+
   v-container(fluid grid-list-md)
+    p page index
     v-layout(row wrap)
       v-flex()
         v-card
