@@ -14,9 +14,8 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^4.3.0",
-    "axios": "^0.17.1",
     "nuxt": "^1.0.0-rc3",
-    "nuxtent": "^1.2.2",
+    "nuxtent": "^0.2.80",
     "path": "^0.12.7",
     "vuetify": "^0.17.6",
     "vuex": "^3.0.1"

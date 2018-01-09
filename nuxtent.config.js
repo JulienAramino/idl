@@ -1,7 +1,7 @@
 module.exports = {
   content: [
     [ 'articles', {
-      page: '/_article',
+      page: '_content',
       isPost: false
     }]
   ],

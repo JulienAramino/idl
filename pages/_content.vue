@@ -3,13 +3,17 @@
   v-container(fluid grid-list-md)
     v-layout(row wrap)
       v-flex()
-        p {{ content.title }} fddfg
-        p khjdksqhfjdqshfldhl
-        <nuxtent-body :body="content.body" />
+        v-card
+          v-card-title(primary-title="")
+            div
+              h3.headline.mb-0 {{ content.title }}
+          v-card-text
+              nuxtent-body(:body="content.body")
 
 </template>
 
 <script>
+// import _ from 'lodash'
 export default {
   layout: 'content',
   asyncData: async ({ app, route, payload }) => ({
@@ -19,7 +23,11 @@ export default {
     return {
     }
   },
+  computed: {
+  },
   components: {
+  },
+  created: function () {
   }
 }
 </script>

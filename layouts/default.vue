@@ -4,7 +4,6 @@
     Navigation
     Toolbar
     v-content
-      p layout default
       router-view
         nuxt
     Footerbar
