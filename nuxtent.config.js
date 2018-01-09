@@ -1,13 +1,7 @@
 module.exports = {
   content: [
-    [ 'pages', {
-      page: '/content/_content',
-      permalink: '/:slug',
-      isPost: false
-    }],
-    [ 'test', {
-      page: '/content/_content',
-      permalink: '/:slug',
+    [ 'articles', {
+      page: '/_article',
       isPost: false
     }]
   ],

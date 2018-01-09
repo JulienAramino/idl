@@ -9,7 +9,7 @@ const createStore = () => {
     },
     actions: {
       async nuxtServerInit ({ commit }, { app }) {
-        const pages = await app.$axios.$get('http://localhost:3000/content-api/pages')
+        const pages = await app.$axios.$get('http://localhost:3000/content-api/articles')
         commit('setMenu', pages)
       },
       updateMenu ({commit, state, rootState}, data) {
