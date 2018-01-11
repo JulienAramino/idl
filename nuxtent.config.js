@@ -1,8 +1,12 @@
 module.exports = {
   content: [
     [ 'articles', {
-      page: '_content',
-      isPost: false
+      page: '/_content',
+      isPost: false,
+      permalink: '/articles/:slug',
+      generate: [ // for static build
+        'get', 'getAll'
+      ],
     }]
   ],
   api: {

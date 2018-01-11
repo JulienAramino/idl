@@ -7,16 +7,8 @@
           v-icon home
         v-list-tile-content
           v-list-tile-title Home
-      v-list-tile(@click="$router.push('contact')")
-        v-list-tile-action
-          v-icon contact_mail
-        v-list-tile-content
-          v-list-tile-title Contact
-      v-list-tile(@click="$router.push('about')")
-        v-list-tile-action
-          v-icon info
-        v-list-tile-content
-          v-list-tile-title A propos
+
+      v-divider
 
       template(v-for="(item, index) in pages")
         v-list-tile(@click="$router.push(item.permalink)")
@@ -24,6 +16,19 @@
             v-icon info
           v-list-tile-content
             v-list-tile-title {{item.title}}
+            
+      v-divider
+
+      v-list-tile(@click="$router.push('/contact')")
+        v-list-tile-action
+          v-icon contact_mail
+        v-list-tile-content
+          v-list-tile-title Contact
+      v-list-tile(@click="$router.push('/about')")
+        v-list-tile-action
+          v-icon info
+        v-list-tile-content
+          v-list-tile-title A propos
 
 </template>
 
